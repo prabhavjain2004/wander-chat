@@ -68,7 +68,7 @@ Wanderchat operates natively using pure Python and FastAPI, without relying on h
 
 This project is built and maintained by our team. If you are a team member, please add your name and USN number below:
 
-- **Prabhav Jain** - 23BTRCL067
-- *[Team Member Name]* - *[USN]*
+- Prabhav Jain - 23BTRCL067
+- Jeevan Sai - 23BTRCL211
 - *[Team Member Name]* - *[USN]*
 - *[Team Member Name]* - *[USN]*
