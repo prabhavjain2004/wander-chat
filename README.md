@@ -73,3 +73,4 @@ This project is built and maintained by our team. If you are a team member, plea
 - Zahid Pichen - 23BTRCL006
 - Moinak Mondal - 23BTRCL057
 - Manas Mishra - 23BTRCL210
+- Rupali - 23BTRCL072
