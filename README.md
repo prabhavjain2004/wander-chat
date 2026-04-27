@@ -72,4 +72,4 @@ This project is built and maintained by our team. If you are a team member, plea
 - Jeevan Sai - 23BTRCL211
 - Zahid Pichen - 23BTRCL006
 - Moinak Mondal - 23BTRCL057
-- *[Team Member Name]* - *[USN]*
+- Manas Mishra - 23BTRCL210
