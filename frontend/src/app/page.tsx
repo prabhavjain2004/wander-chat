@@ -392,7 +392,7 @@ export default function Wanderchat() {
       <div className="flex-1 glass rounded-[2.5rem] flex flex-col relative overflow-hidden shadow-2xl min-w-0 min-h-0">
         <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#020617]/80 to-transparent z-10 pointer-events-none" />
         
-        <div ref={scrollContainerRef} className="flex-1 overflow-y-auto px-8 md:px-16 py-12 space-y-12 min-h-0">
+        <div ref={scrollContainerRef} className="flex-1 overflow-y-auto px-8 md:px-16 py-12 space-y-12 min-h-0 custom-scrollbar">
           {messages.length === 0 && (
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="h-full flex flex-col items-center justify-center text-center max-w-xl mx-auto space-y-8">
               <div className="w-20 h-20 rounded-[2.5rem] glass flex items-center justify-center border-emerald-500/20">
@@ -414,7 +414,7 @@ export default function Wanderchat() {
               animate={{ opacity: 1, y: 0 }}
               className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
-              <div className={`max-w-[85%] ${msg.role === 'user' ? 'p-6 px-10 rounded-[2.5rem] bg-emerald-500 text-slate-950 font-black shadow-lg shadow-emerald-500/20' : 'glass-card p-10 rounded-[3rem]'}`}>
+              <div className={`max-w-[85%] ${msg.role === 'user' ? 'p-6 px-10 rounded-[2.5rem] bg-emerald-500 text-slate-950 font-bold shadow-lg shadow-emerald-500/20' : 'glass-card p-10 rounded-[3rem]'}`}>
                 {msg.role === 'assistant' ? (
                   <div className="prose">
                     <ReactMarkdown>{msg.content}</ReactMarkdown>
