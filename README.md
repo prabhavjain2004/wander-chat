@@ -70,5 +70,5 @@ This project is built and maintained by our team. If you are a team member, plea
 
 - Prabhav Jain - 23BTRCL067
 - Jeevan Sai - 23BTRCL211
-- *[Team Member Name]* - *[USN]*
+- Zahid Pichen - 23BTRCL006
 - *[Team Member Name]* - *[USN]*
